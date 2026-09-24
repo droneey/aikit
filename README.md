@@ -1,16 +1,16 @@
 <p align="center">
-  <img src=".github/assets/banner.svg" alt="aikit — Claude Code setup for design and product work" width="100%">
+  <img src=".github/assets/banner.svg" alt="Droneey AIkit — Claude Code setup for design and product work" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-plugins-7C3AED?style=flat-square" alt="Claude Code plugins">
-  <img src="https://img.shields.io/badge/tuned_for-Opus_5.5-8B5CF6?style=flat-square" alt="Tuned for Claude Opus 5.5">
-  <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-6D28D9?style=flat-square" alt="MIT license"></a>
+  <img src=".github/assets/badges/claude-code.svg" alt="Claude Code: plugins">
+  <img src=".github/assets/badges/opus.svg" alt="Tuned for Opus 5.5">
+  <a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
 </p>
 
 <p align="center">Plugins that complement each other, one script to install them, one file that settles their overlaps.</p>
 
-## What's inside
+## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> What's inside
 
 | Zone | Plugin | Adds |
 |---|---|---|
@@ -22,8 +22,8 @@
 | | `accesslint` | WCAG 2.2 checks on a live page |
 | **Motion** | `emil-motion` ✦ | Apple-style physics, animation recipes, motion reviews |
 | **Research** | `ux-research` ✦ | Research plans, synthesis, design handoff |
-| **Code** | `constitution` | droneey code rules |
-| | `superpowers` | Workflow skills, calibrated |
+| **Architecture** | [`constitution`](https://github.com/droneey/constitution) <img src=".github/assets/badges/by-droneey.svg" alt="By droneey" align="absmiddle"> | The blocks and assemblies every droneey repo is built by |
+| **Code** | `superpowers` | Workflow skills, calibrated |
 | | `security-guidance` | Security checks on edits, commits and pushes |
 | | `context7` | Current library docs |
 | | `mcp-server-dev` | MCP servers: architecture, auth, packaging |
@@ -31,7 +31,7 @@
 
 <sub>✦ Curated here from an upstream repo. Overlaps between skills are settled in <a href="CLAUDE.skills.md"><code>CLAUDE.skills.md</code></a>.</sub>
 
-## How it works
+## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> How it works
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#EDE9FE", "primaryBorderColor": "#7C3AED", "primaryTextColor": "#2E1065", "lineColor": "#8B5CF6"}}}%%
@@ -41,11 +41,11 @@ flowchart LR
   install --> plugins["Plugins"]
   install --> memory["~/.claude/CLAUDE.md<br/>imports CLAUDE.skills.md"]
   marketplaces & plugins & memory --> session(["New Claude session"])
-  classDef accent fill:#7C3AED,stroke:#5B21B6,color:#FFFFFF
+  classDef accent fill:#8B5CF6,stroke:#D946EF,stroke-width:2px,color:#FFFFFF
   class session accent
 ```
 
-## Installation
+## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Installation
 
 **Needs** `claude` `git` `python3` `node`
 
@@ -64,13 +64,13 @@ git clone https://github.com/droneey/aikit.git ~/aikit
 | Ask Claude to quote its “Motion” rule | The line from `CLAUDE.skills.md` |
 | `/mcp` | `context7` listed; sign in once |
 
-## Updating
+## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Updating
 
 ```bash
 git -C ~/aikit pull && ~/aikit/install.sh
 ```
 
-## Per project
+## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Per project
 
 ```bash
 cp ~/aikit/templates/project-settings.json <repo>/.claude/settings.json
@@ -140,7 +140,7 @@ This repo is MIT. Third-party skills are fetched from upstream, never copied her
 | bencium/bencium-marketplace | MIT |
 | obra/superpowers | MIT |
 | upstash/context7 | MIT |
-| droneey/constitution | PolyForm Internal Use 1.0.0 |
+| [droneey/constitution](https://github.com/droneey/constitution) | PolyForm Internal Use 1.0.0 |
 | accesslint/claude-marketplace | No license file |
 | anthropics/claude-code | No license file |
 

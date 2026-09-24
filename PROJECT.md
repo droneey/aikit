@@ -10,15 +10,15 @@ constitution: 0.8.0
 
 ## One-liner
 
-**aikit** is the droneey setup for Claude Code: a curated set of plugins and skills for design and product work, and the calibration that tells Claude which skill owns which decision.
+**Droneey AIkit** is the Claude Code setup of droneey: a curated set of plugins and skills for design and product work, and the calibration that tells Claude which skill owns which decision.
 
 ## Context & users
 
-Plugin catalogs overlap: several skills claim the same task and pull in different directions, and prompts written for older models make current ones over-trigger. aikit keeps one reviewed set and the rules that make its parts work together, installed by one script.
+Plugin catalogs overlap: several skills claim the same task and pull in different directions, and prompts written for older models make current ones over-trigger. AIkit keeps one reviewed set and the rules that make its parts work together, installed by one script.
 
 - **A developer** clones the repository and runs `install.sh`; every new Claude Code session then has the same plugins and calibration.
 - **A repository of the fleet** copies `templates/project-settings.json` into `.claude/settings.json`, so anyone who opens it gets the same plugins.
-- **The constitution** stays a separate plugin: aikit installs it and leaves the code rules to it.
+- **The constitution** stays a separate plugin: AIkit installs it and leaves the architecture rules to it.
 
 ## Domains
 
@@ -29,14 +29,14 @@ Plugin catalogs overlap: several skills claim the same task and pull in differen
 
 ## Core entities & relationships
 
-- **Marketplace** — a catalog of plugins; aikit is one, and lists only its curated entries.
+- **Marketplace** — a catalog of plugins; AIkit is one, and lists only its curated entries.
 - **Plugin** — what Claude Code installs; it carries skills, hooks or MCP servers.
-- **Skill** — a folder with a `SKILL.md`; aikit selects skills from their upstream repositories and never copies them.
+- **Skill** — a folder with a `SKILL.md`; AIkit selects skills from their upstream repositories and never copies them.
 
 ## Boundaries — what it does not do
 
 - It does not vendor third-party skills: Claude Code fetches them from their upstream repositories.
-- It does not carry code rules; that is the constitution's job.
+- It does not carry architecture rules; that is the constitution's job.
 - It does not manage personal plugins such as time trackers or personal connectors.
 
 ## Non-functional notes
