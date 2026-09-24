@@ -2,13 +2,13 @@
   <img src=".github/assets/banner.svg" alt="Droneey AIkit — Claude Code setup for design and product work" width="100%">
 </p>
 
-<p align="center">
+<p>
   <img src=".github/assets/badges/claude-code.svg" alt="Claude Code: plugins">
   <img src=".github/assets/badges/opus.svg" alt="Tuned for Opus 5.5">
   <a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
 </p>
 
-<p align="center">Plugins that complement each other, one script to install them, one file that settles their overlaps.</p>
+Plugins that complement each other, one script to install them, one file that settles their overlaps.
 
 ## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> What's inside
 
@@ -22,7 +22,7 @@
 | | `accesslint` | WCAG 2.2 checks on a live page |
 | **Motion** | `emil-motion` ✦ | Apple-style physics, animation recipes, motion reviews |
 | **Research** | `ux-research` ✦ | Research plans, synthesis, design handoff |
-| **Architecture** | [`constitution`](https://github.com/droneey/constitution) <img src=".github/assets/badges/by-droneey.svg" alt="By droneey" align="absmiddle"> | The blocks and assemblies every droneey repo is built by |
+| **Architecture** | [`constitution`](https://github.com/droneey/constitution) <img src=".github/assets/badges/by-droneey.svg" alt="By Droneey" align="absmiddle"> | The blocks and assemblies every droneey repo is built by |
 | **Code** | `superpowers` | Workflow skills, calibrated |
 | | `security-guidance` | Security checks on edits, commits and pushes |
 | | `context7` | Current library docs |
@@ -41,7 +41,7 @@ flowchart LR
   install --> plugins["Plugins"]
   install --> memory["~/.claude/CLAUDE.md<br/>imports CLAUDE.skills.md"]
   marketplaces & plugins & memory --> session(["New Claude session"])
-  classDef accent fill:#8B5CF6,stroke:#D946EF,stroke-width:2px,color:#FFFFFF
+  classDef accent fill:#7C3AED,stroke:#E11D48,stroke-width:2px,color:#FFFFFF
   class session accent
 ```
 
