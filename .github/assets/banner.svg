@@ -10,14 +10,27 @@
       <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glow-fuchsia" cx="0.95" cy="1" r="0.45">
+      <stop offset="0" stop-color="#D946EF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#D946EF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="455" y1="0" x2="550" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#E879F9"/>
+    </linearGradient>
+    <linearGradient id="dots" gradientUnits="userSpaceOnUse" x1="906" y1="72" x2="1134" y2="248">
+      <stop offset="0" stop-color="#DDD6FE"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
   </defs>
   <rect width="1280" height="320" rx="24" fill="url(#background)"/>
   <rect width="1280" height="320" rx="24" fill="url(#glow)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#glow-fuchsia)"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-    <text x="96" y="176" font-size="100" letter-spacing="-3"><tspan fill="#C4B5FD" font-weight="500">Droneey </tspan><tspan fill="#A78BFA" font-weight="800">AI</tspan><tspan fill="#F5F3FF" font-weight="700">kit</tspan></text>
+    <text x="96" y="176" font-size="100" letter-spacing="-3"><tspan fill="#C4B5FD" font-weight="500">Droneey </tspan><tspan fill="url(#accent)" font-weight="800">AI</tspan><tspan fill="#F5F3FF" font-weight="700">kit</tspan></text>
     <text x="100" y="232" fill="#C4B5FD" font-size="30">Claude Code setup for design and product work</text>
   </g>
-  <g fill="#DDD6FE">
+  <g fill="url(#dots)">
     <circle cx="916" cy="82" r="10"/>
     <circle cx="968" cy="82" r="10"/>
     <circle cx="1072" cy="82" r="10"/>
