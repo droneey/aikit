@@ -1,0 +1,35 @@
+{
+  "name": "@droneey/aikit",
+  "version": "0.0.0",
+  "private": true,
+  "description": "The droneey setup for Claude Code: a curated set of plugins and skills for design and product work, and the calibration that makes them work together.",
+  "license": "MIT",
+  "author": {
+    "name": "Dmytro Kurovskyi",
+    "url": "https://kurovskyi.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/droneey/aikit.git"
+  },
+  "type": "module",
+  "scripts": {
+    "prepare": "lefthook install",
+    "lint:check": "biome check",
+    "lint:fix": "biome check --write",
+    "packages:check": "syncpack lint && syncpack format --check",
+    "packages:fix": "syncpack fix && syncpack format",
+    "shell:check": "shellcheck install.sh",
+    "plugin:check": "claude plugin validate .",
+    "check": "bun run lint:check && bun run packages:check && bun run shell:check && bun run plugin:check"
+  },
+  "devDependencies": {
+    "@anthropic-ai/claude-code": "^2.1.281",
+    "@biomejs/biome": "^2.5.12",
+    "@droneey/devkit-ts-biome": "^1.10.2",
+    "@droneey/devkit-ts-lefthook": "^1.10.2",
+    "@droneey/devkit-ts-syncpack": "^1.10.2",
+    "lefthook": "^2.1.4",
+    "syncpack": "^15.3.3"
+  }
+}

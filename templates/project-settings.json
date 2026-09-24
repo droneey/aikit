@@ -1,0 +1,74 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    },
+    "claude-code-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-code"
+      }
+    },
+    "superpowers-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-marketplace"
+      }
+    },
+    "context7-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "upstash/context7"
+      }
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
+    },
+    "bencium-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "bencium/bencium-marketplace"
+      }
+    },
+    "accesslint": {
+      "source": {
+        "source": "github",
+        "repo": "accesslint/claude-marketplace"
+      }
+    },
+    "droneey": {
+      "source": {
+        "source": "github",
+        "repo": "droneey/constitution"
+      }
+    },
+    "droneey-aikit": {
+      "source": {
+        "source": "github",
+        "repo": "droneey/aikit"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true,
+    "typography@bencium-marketplace": true,
+    "design-audit@bencium-marketplace": true,
+    "bencium-innovative-ux-designer@bencium-marketplace": true,
+    "accesslint@accesslint": true,
+    "emil-motion@droneey-aikit": true,
+    "ux-research@droneey-aikit": true,
+    "constitution@droneey": true,
+    "superpowers@superpowers-marketplace": true,
+    "security-guidance@claude-code-plugins": true,
+    "context7@context7-marketplace": true,
+    "mcp-server-dev@claude-plugins-official": true,
+    "expo@claude-plugins-official": true
+  }
+}

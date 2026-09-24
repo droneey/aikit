@@ -1,0 +1,53 @@
+{
+  "name": "droneey-aikit",
+  "owner": {
+    "name": "Dmytro Kurovskyi"
+  },
+  "metadata": {
+    "description": "Curated Claude Code skills for design and product work, picked from their upstream repositories without duplicates."
+  },
+  "plugins": [
+    {
+      "name": "emil-motion",
+      "description": "Emil Kowalski's motion and interface skills: Apple-style interaction physics, building web animations, reviewing and improving existing motion, finding animation opportunities, and picking UI libraries.",
+      "source": {
+        "source": "git-subdir",
+        "url": "emilkowalski/skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./apple-design",
+        "./animate",
+        "./review-animations",
+        "./improve-animations",
+        "./find-animation-opportunities",
+        "./pick-ui-library"
+      ],
+      "author": {
+        "name": "Emil Kowalski"
+      },
+      "homepage": "https://github.com/emilkowalski/skills",
+      "license": "MIT"
+    },
+    {
+      "name": "ux-research",
+      "description": "UX research planning, research synthesis and developer handoff specs from Anthropic's knowledge-work design plugin.",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/knowledge-work-plugins"
+      },
+      "strict": false,
+      "skills": [
+        "./design/skills/user-research",
+        "./design/skills/research-synthesis",
+        "./design/skills/design-handoff"
+      ],
+      "author": {
+        "name": "Anthropic"
+      },
+      "homepage": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design",
+      "license": "Apache-2.0"
+    }
+  ]
+}

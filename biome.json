@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": [
+    "@droneey/devkit-ts-biome/base"
+  ],
+  "overrides": [
+    {
+      "includes": [
+        ".syncpackrc.mjs"
+      ],
+      "linter": {
+        "rules": {
+          "style": {
+            "noDefaultExport": "off"
+          }
+        }
+      }
+    }
+  ]
+}
