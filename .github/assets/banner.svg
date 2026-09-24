@@ -14,7 +14,7 @@
   <rect width="1280" height="320" rx="24" fill="url(#background)"/>
   <rect width="1280" height="320" rx="24" fill="url(#glow)"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-    <text x="96" y="176" font-size="100" letter-spacing="-3"><tspan fill="#C4B5FD" font-weight="600">Droneey </tspan><tspan fill="#F5F3FF" font-weight="700">AIkit</tspan></text>
+    <text x="96" y="176" font-size="100" letter-spacing="-3"><tspan fill="#C4B5FD" font-weight="500">Droneey </tspan><tspan fill="#A78BFA" font-weight="800">AI</tspan><tspan fill="#F5F3FF" font-weight="700">kit</tspan></text>
     <text x="100" y="232" fill="#C4B5FD" font-size="30">Claude Code setup for design and product work</text>
   </g>
   <g fill="#DDD6FE">
