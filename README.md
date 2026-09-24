@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/banner.svg" alt="aikit — Claude Code setup for design and product work" width="100%">
+  <img src=".github/assets/banner.svg" alt="Droneey AIkit — Claude Code setup for design and product work" width="100%">
 </p>
 
 <p align="center">
@@ -22,8 +22,8 @@
 | | `accesslint` | WCAG 2.2 checks on a live page |
 | **Motion** | `emil-motion` ✦ | Apple-style physics, animation recipes, motion reviews |
 | **Research** | `ux-research` ✦ | Research plans, synthesis, design handoff |
-| **Code** | `constitution` | droneey code rules |
-| | `superpowers` | Workflow skills, calibrated |
+| **Architecture** | [`constitution`](https://github.com/droneey/constitution) <img src="https://img.shields.io/badge/by-droneey-7C3AED?style=flat-square" alt="by droneey" align="absmiddle"> | The blocks and assemblies every droneey repo is built by |
+| **Code** | `superpowers` | Workflow skills, calibrated |
 | | `security-guidance` | Security checks on edits, commits and pushes |
 | | `context7` | Current library docs |
 | | `mcp-server-dev` | MCP servers: architecture, auth, packaging |
@@ -140,7 +140,7 @@ This repo is MIT. Third-party skills are fetched from upstream, never copied her
 | bencium/bencium-marketplace | MIT |
 | obra/superpowers | MIT |
 | upstash/context7 | MIT |
-| droneey/constitution | PolyForm Internal Use 1.0.0 |
+| [droneey/constitution](https://github.com/droneey/constitution) | PolyForm Internal Use 1.0.0 |
 | accesslint/claude-marketplace | No license file |
 | anthropics/claude-code | No license file |
 
