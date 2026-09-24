@@ -1,6 +1,6 @@
 {
   "name": "@droneey/aikit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Droneey AIkit: the Claude Code setup of droneey, curated plugins and skills for design and product work, and the calibration that makes them work together.",
   "license": "MIT",
