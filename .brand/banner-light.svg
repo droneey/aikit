@@ -14,7 +14,7 @@
       <stop offset="0" stop-color="#7D53DC"/>
       <stop offset="1" stop-color="#A83FB8"/>
     </linearGradient>
-    <linearGradient id="motif" gradientUnits="userSpaceOnUse" x1="680" y1="64" x2="776" y2="160">
+    <linearGradient id="motif" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="96" y2="96">
       <stop offset="0" stop-color="#7D53DC"/>
       <stop offset="1" stop-color="#A83FB8"/>
     </linearGradient>
@@ -27,9 +27,9 @@
     <text x="64" y="112" fill="url(#name)" font-size="68" font-weight="500" letter-spacing="-1.5">AI<tspan dx="6">kit</tspan></text>
     <text x="64" y="157" fill="#52525B" font-size="18">Setup for modern engineering</text>
   </g>
-  <g fill="url(#motif)">
-    <path d="M712 88C712 102.08 729.92 120 744 120C729.92 120 712 137.92 712 152C712 137.92 694.08 120 680 120C694.08 120 712 102.08 712 88Z"/>
-    <path d="M760 64C760 71.04 768.96 80 776 80C768.96 80 760 88.96 760 96C760 88.96 751.04 80 744 80C751.04 80 760 71.04 760 64Z"/>
-    <path d="M760 144C760 147.52 764.48 152 768 152C764.48 152 760 156.48 760 160C760 156.48 755.52 152 752 152C755.52 152 760 147.52 760 144Z"/>
+  <g transform="translate(680 64)" fill="url(#motif)">
+    <path d="M32 24C32 38.08 49.92 56 64 56C49.92 56 32 73.92 32 88C32 73.92 14.08 56 0 56C14.08 56 32 38.08 32 24Z"/>
+    <path d="M80 0C80 7.04 88.96 16 96 16C88.96 16 80 24.96 80 32C80 24.96 71.04 16 64 16C71.04 16 80 7.04 80 0Z"/>
+    <path d="M80 80C80 83.52 84.48 88 88 88C84.48 88 80 92.48 80 96C80 92.48 75.52 88 72 88C75.52 88 80 83.52 80 80Z"/>
   </g>
 </svg>

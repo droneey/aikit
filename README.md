@@ -1,15 +1,15 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.svg">
-    <img src=".github/assets/banner-light.svg" alt="Droneey AIkit — Setup for modern engineering" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset=".brand/banner-dark.svg">
+    <img src=".brand/banner-light.svg" alt="Droneey AIkit — Setup for modern engineering" width="100%">
   </picture>
 </p>
 
 <p align="center">
-  <img src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">&ensp;<a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
+  <img src=".brand/badges/claude-code.svg" alt="Made for Claude Code">&ensp;<a href="LICENSE.md"><img src=".brand/badges/license.svg" alt="License: MIT"></a>
 </p>
 
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> What's inside
+## <img src=".brand/diamond.svg" width="18" height="18" alt=""> What's inside
 
 | Zone | Plugin | Adds |
 |---|---|---|
@@ -21,7 +21,7 @@
 | | `accesslint` | WCAG 2.2 checks on a live page |
 | **Motion** | `emil-motion` ✦ | Apple-style physics, animation recipes, motion reviews |
 | **Research** | `ux-research` ✦ | Research plans, synthesis, design handoff |
-| **Architecture** | [`constitution`](https://github.com/droneey/constitution) <img src=".github/assets/badges/by-droneey.svg" alt="By Droneey" align="absmiddle"> | The blocks and assemblies every droneey repo is built by |
+| **Architecture** | [`constitution`](https://github.com/droneey/constitution) <img src=".brand/badges/by-droneey.svg" alt="By Droneey" align="absmiddle"> | The blocks and assemblies every droneey repo is built by |
 | **Code** | `superpowers` | Workflow skills, calibrated |
 | | `security-guidance` | Security checks on edits, commits and pushes |
 | | `context7` | Current library docs |
@@ -30,7 +30,7 @@
 
 <sub>✦ Curated here from an upstream repo. Overlaps between skills are settled in <a href="CLAUDE.skills.md"><code>CLAUDE.skills.md</code></a>.</sub>
 
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> How it works
+## <img src=".brand/diamond.svg" width="18" height="18" alt=""> How it works
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#F4F4F5", "primaryBorderColor": "#D4D4D8", "primaryTextColor": "#18181B", "lineColor": "#A1A1AA"}}}%%
@@ -44,7 +44,7 @@ flowchart LR
   class session accent
 ```
 
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Installation
+## <img src=".brand/diamond.svg" width="18" height="18" alt=""> Installation
 
 **Needs** `claude` `git` `python3` `node`
 
@@ -73,7 +73,7 @@ cp ~/aikit/templates/project-settings.json <repo>/.claude/settings.json
 
 Teammates who open the repo and trust the folder get the same plugins; the calibration comes only with `install.sh`. Merge the file if the repo already has one.
 
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Updating
+## <img src=".brand/diamond.svg" width="18" height="18" alt=""> Updating
 
 ```bash
 git -C ~/aikit pull && ~/aikit/install.sh

@@ -1,0 +1,23 @@
+version: 1
+
+wordmark:
+  - AI
+  - kit
+tagline: Setup for modern engineering
+accent:
+  from: 293
+  to: 322
+motif: |
+  <path d="M32 24C32 38.08 49.92 56 64 56C49.92 56 32 73.92 32 88C32 73.92 14.08 56 0 56C14.08 56 32 38.08 32 24Z"/>
+  <path d="M80 0C80 7.04 88.96 16 96 16C88.96 16 80 24.96 80 32C80 24.96 71.04 16 64 16C71.04 16 80 7.04 80 0Z"/>
+  <path d="M80 80C80 83.52 84.48 88 88 88C84.48 88 80 92.48 80 96C80 92.48 75.52 88 72 88C75.52 88 80 83.52 80 80Z"/>
+badges:
+  claude-code:
+    label: made for
+    value: Claude Code
+  license:
+    label: license
+    value: MIT
+  by-droneey:
+    label: null
+    value: by Droneey
