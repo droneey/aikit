@@ -5,11 +5,12 @@
   </picture>
 </p>
 
-<p>
-  <a href="LICENSE.md"><img align="right" src=".github/assets/badges/license.svg" alt="License: MIT"></a>
-  <img align="right" src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">
-  Curated plugins, one install script, one file that settles their overlaps.
+<p align="center">
+  <img src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">
+  <a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
 </p>
+
+<p align="center">Plugins that complement each other, one script to install them, one file that settles their overlaps.</p>
 
 ## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> What's inside
 
