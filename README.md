@@ -5,12 +5,11 @@
   </picture>
 </p>
 
-<p align="center">
-  <img src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">
-  <a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
+<p>
+  <img src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">&ensp;<a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
 </p>
 
-<p align="center">Plugins that complement each other, one script to install them, one file that settles their overlaps.</p>
+Plugins that complement each other, one script to install them, one file that settles their overlaps.
 
 ## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> What's inside
 
