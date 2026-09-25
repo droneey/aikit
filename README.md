@@ -37,14 +37,14 @@ Plugins that complement each other, one script to install them, one file that se
 ## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> How it works
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#EDE9FE", "primaryBorderColor": "#7C3AED", "primaryTextColor": "#2E1065", "lineColor": "#8B5CF6"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#F4F4F5", "primaryBorderColor": "#D4D4D8", "primaryTextColor": "#18181B", "lineColor": "#A1A1AA"}}}%%
 flowchart LR
   clone["git clone"] --> install["install.sh"]
   install --> marketplaces["Marketplaces"]
   install --> plugins["Plugins"]
   install --> memory["~/.claude/CLAUDE.md<br/>imports CLAUDE.skills.md"]
   marketplaces & plugins & memory --> session(["New Claude session"])
-  classDef accent fill:#7C3AED,stroke:#E11D48,stroke-width:2px,color:#FFFFFF
+  classDef accent fill:#7D53DC,stroke:#A83FB8,stroke-width:2px,color:#FFFFFF
   class session accent
 ```
 

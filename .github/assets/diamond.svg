@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED"/>
-      <stop offset="0.5" stop-color="#C026D3"/>
-      <stop offset="1" stop-color="#E11D48"/>
+      <stop offset="0" stop-color="#7D53DC"/>
+      <stop offset="1" stop-color="#A83FB8"/>
     </linearGradient>
   </defs>
   <rect x="4" y="4" width="12" height="12" rx="2.5" transform="rotate(45 10 10)" fill="url(#accent)"/>

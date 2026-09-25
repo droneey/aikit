@@ -2,19 +2,19 @@
   <title>Claude Code: plugins</title>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C026D3"/>
-      <stop offset="1" stop-color="#E11D48"/>
+      <stop offset="0" stop-color="#7D53DC"/>
+      <stop offset="1" stop-color="#A83FB8"/>
     </linearGradient>
     <clipPath id="shape">
       <rect width="150" height="24" rx="8"/>
     </clipPath>
   </defs>
   <g clip-path="url(#shape)">
-    <rect width="91" height="24" fill="#2E1065"/>
+    <rect width="91" height="24" fill="#3F3F46"/>
     <rect x="91" width="59" height="24" fill="url(#accent)"/>
   </g>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-    <text x="45.5" y="16" fill="#DDD6FE">Claude Code</text>
+    <text x="45.5" y="16" fill="#F4F4F5">Claude Code</text>
     <text x="120.5" y="16" fill="#FFFFFF">plugins</text>
   </g>
 </svg>
