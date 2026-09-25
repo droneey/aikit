@@ -1,0 +1,20 @@
+# The brand of this repository. `brand render` draws its README images into .brand/.
+version: 1
+wordmark:
+  - AI
+  - kit
+tagline: Setup for modern engineering
+accent:
+  from: 293
+  to: 322
+motif: sparkles
+badges:
+  claude-code:
+    label: made for
+    value: Claude Code
+  license:
+    label: license
+    value: MIT
+  by-droneey:
+    label: null
+    value: by Droneey
