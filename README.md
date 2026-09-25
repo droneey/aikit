@@ -63,19 +63,21 @@ git clone https://github.com/droneey/aikit.git ~/aikit
 | Ask Claude to quote its “Motion” rule | The line from `CLAUDE.skills.md` |
 | `/mcp` | `context7` listed; sign in once |
 
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Updating
+### Per project
 
-```bash
-git -C ~/aikit pull && ~/aikit/install.sh
-```
-
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Per project
+Plugins only, for everyone who opens one repository:
 
 ```bash
 cp ~/aikit/templates/project-settings.json <repo>/.claude/settings.json
 ```
 
-Teammates who open the repo and trust the folder get the same plugins. Merge the file if the repo already has one.
+Teammates who open the repo and trust the folder get the same plugins; the calibration comes only with `install.sh`. Merge the file if the repo already has one.
+
+## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Updating
+
+```bash
+git -C ~/aikit pull && ~/aikit/install.sh
+```
 
 <details>
 <summary><b>Troubleshooting</b></summary>
