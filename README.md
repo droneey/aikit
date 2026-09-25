@@ -1,14 +1,13 @@
 <p align="center">
-  <img src=".github/assets/banner.svg" alt="Droneey AIkit — Claude Code setup for design and product work" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.svg">
+    <img src=".github/assets/banner-light.svg" alt="Droneey AIkit — Setup for modern engineering" width="100%">
+  </picture>
 </p>
 
-<p>
-  <img src=".github/assets/badges/claude-code.svg" alt="Claude Code: plugins">
-  <img src=".github/assets/badges/opus.svg" alt="Tuned for Opus 5.5">
-  <a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
+<p align="center">
+  <img src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">&ensp;<a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
 </p>
-
-Plugins that complement each other, one script to install them, one file that settles their overlaps.
 
 ## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> What's inside
 
@@ -34,14 +33,14 @@ Plugins that complement each other, one script to install them, one file that se
 ## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> How it works
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#EDE9FE", "primaryBorderColor": "#7C3AED", "primaryTextColor": "#2E1065", "lineColor": "#8B5CF6"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#F4F4F5", "primaryBorderColor": "#D4D4D8", "primaryTextColor": "#18181B", "lineColor": "#A1A1AA"}}}%%
 flowchart LR
   clone["git clone"] --> install["install.sh"]
   install --> marketplaces["Marketplaces"]
   install --> plugins["Plugins"]
   install --> memory["~/.claude/CLAUDE.md<br/>imports CLAUDE.skills.md"]
   marketplaces & plugins & memory --> session(["New Claude session"])
-  classDef accent fill:#7C3AED,stroke:#E11D48,stroke-width:2px,color:#FFFFFF
+  classDef accent fill:#7D53DC,stroke:#A83FB8,stroke-width:2px,color:#FFFFFF
   class session accent
 ```
 
@@ -64,19 +63,21 @@ git clone https://github.com/droneey/aikit.git ~/aikit
 | Ask Claude to quote its “Motion” rule | The line from `CLAUDE.skills.md` |
 | `/mcp` | `context7` listed; sign in once |
 
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Updating
+### Per project
 
-```bash
-git -C ~/aikit pull && ~/aikit/install.sh
-```
-
-## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Per project
+Plugins only, for everyone who opens one repository:
 
 ```bash
 cp ~/aikit/templates/project-settings.json <repo>/.claude/settings.json
 ```
 
-Teammates who open the repo and trust the folder get the same plugins. Merge the file if the repo already has one.
+Teammates who open the repo and trust the folder get the same plugins; the calibration comes only with `install.sh`. Merge the file if the repo already has one.
+
+## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> Updating
+
+```bash
+git -C ~/aikit pull && ~/aikit/install.sh
+```
 
 <details>
 <summary><b>Troubleshooting</b></summary>
