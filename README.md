@@ -1,15 +1,13 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.svg">
-    <img src=".github/assets/banner-light.svg" alt="Droneey AIkit — Claude Code setup for design and product work" width="100%">
+    <img src=".github/assets/banner-light.svg" alt="Droneey AIkit — Setup for modern engineering" width="100%">
   </picture>
 </p>
 
 <p align="right">
   <img src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">&ensp;<a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
 </p>
-
-Plugins that complement each other, one script to install them, one file that settles their overlaps.
 
 ## <img src=".github/assets/diamond.svg" width="18" height="18" alt=""> What's inside
 
