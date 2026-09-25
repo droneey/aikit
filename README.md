@@ -1,5 +1,8 @@
 <p align="center">
-  <img src=".github/assets/banner.svg" alt="Droneey AIkit — Claude Code setup for design and product work" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.svg">
+    <img src=".github/assets/banner-light.svg" alt="Droneey AIkit — Claude Code setup for design and product work" width="100%">
+  </picture>
 </p>
 
 <p>
