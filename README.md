@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<p align="right">
+<p align="center">
   <img src=".github/assets/badges/claude-code.svg" alt="Made for Claude Code">&ensp;<a href="LICENSE.md"><img src=".github/assets/badges/license.svg" alt="License: MIT"></a>
 </p>
 
