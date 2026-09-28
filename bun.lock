@@ -7,8 +7,8 @@
       "devDependencies": {
         "@anthropic-ai/claude-code": "^2.1.281",
         "@biomejs/biome": "^2.5.14",
-        "@droneey/devkit-ts-biome": "^1.30.0",
-        "@droneey/devkit-ts-syncpack": "^1.30.0",
+        "@droneey/devkit-ts-biome": "^1.32.0",
+        "@droneey/devkit-ts-syncpack": "^1.32.0",
         "syncpack": "^15.3.3",
       },
     },
@@ -50,9 +50,9 @@
 
     "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.5.14", "", { "os": "win32", "cpu": "x64" }, "sha512-oJWmBhoHsnhUKIke+0gXDX0mltJrWHA1UyHsrTlXwX0TL64ilVZAo+TYZm97baecV0esBdpzy3k96q+09JaZUQ=="],
 
-    "@droneey/devkit-ts-biome": ["@droneey/devkit-ts-biome@1.30.0", "", { "peerDependencies": { "@biomejs/biome": ">=2.5.0" } }, "sha512-SZGV5tvs58SeA1QcyN5mJoIHPEybB3+7nVofJakO8StezWI/tevJJeElCGL1EjfwLrYaa8wCq8mcldg0Mcv/hw=="],
+    "@droneey/devkit-ts-biome": ["@droneey/devkit-ts-biome@1.32.0", "", { "peerDependencies": { "@biomejs/biome": ">=2.5.0" } }, "sha512-tMp4ULwxnwsC4eYyXS7p4J30tMWDR3WZvQBSoZKScjxzqnCIWYipKzxyylCD+yOVXujAH8I5wVVdEF1eCfmtWw=="],
 
-    "@droneey/devkit-ts-syncpack": ["@droneey/devkit-ts-syncpack@1.30.0", "", { "peerDependencies": { "syncpack": ">=15.0.0" } }, "sha512-wZJQ8Ks+HAXA/hUiO7ibtwHQ4ThpP6vPvWxDgPnYN4YbjV+mTY4OqEB9ArLlxHYXt85niLzhaEEnwLV75Qj2+A=="],
+    "@droneey/devkit-ts-syncpack": ["@droneey/devkit-ts-syncpack@1.32.0", "", { "peerDependencies": { "syncpack": ">=15.0.0" } }, "sha512-jGPYG6rKRqkGJ+asSgjOkiKueCdl4/gfuD66iN+en+XlWAdvO6cs5xfbeRzfQSI8vozLW6ykaIQKRmTgE5eyLQ=="],
 
     "syncpack": ["syncpack@15.3.3", "", { "optionalDependencies": { "syncpack-darwin-arm64": "15.3.3", "syncpack-darwin-x64": "15.3.3", "syncpack-linux-arm64": "15.3.3", "syncpack-linux-arm64-musl": "15.3.3", "syncpack-linux-x64": "15.3.3", "syncpack-linux-x64-musl": "15.3.3", "syncpack-windows-arm64": "15.3.3", "syncpack-windows-x64": "15.3.3" }, "bin": { "syncpack": "index.cjs" } }, "sha512-MC99meBhgc/E5xbB5mFUS99wj4bquTbKLKHLXYh3qPbmPZl2HD8KA4ls29a9Xv67oZ03isCaJaqSl+JIfXIfpA=="],
 

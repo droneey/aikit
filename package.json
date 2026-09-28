@@ -29,8 +29,8 @@
   "devDependencies": {
     "@anthropic-ai/claude-code": "^2.1.281",
     "@biomejs/biome": "^2.5.14",
-    "@droneey/devkit-ts-biome": "^1.30.0",
-    "@droneey/devkit-ts-syncpack": "^1.30.0",
+    "@droneey/devkit-ts-biome": "^1.32.0",
+    "@droneey/devkit-ts-syncpack": "^1.32.0",
     "syncpack": "^15.3.3"
   }
 }

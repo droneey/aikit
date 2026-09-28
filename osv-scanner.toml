@@ -4,3 +4,10 @@ nameIsRegex = true
 ecosystem = "npm"
 license.ignore = true
 reason = "Anthropic's commercial terms; Claude Code only runs plugin:check here and never ships"
+
+[[PackageOverrides]]
+name = "@droneey/devkit-ts-.*"
+nameIsRegex = true
+ecosystem = "npm"
+license.override = ["MIT"]
+reason = "devkit's packages are MIT; deps.dev names the licence of a new version only hours after its release"
