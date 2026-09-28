@@ -1,0 +1,6 @@
+[[PackageOverrides]]
+name = "@anthropic-ai/claude-code.*"
+nameIsRegex = true
+ecosystem = "npm"
+license.ignore = true
+reason = "Anthropic's commercial terms; Claude Code only runs plugin:check here and never ships"

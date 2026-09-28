@@ -1,0 +1,4 @@
+ls:
+  .skills.md: regex:^CLAUDE$
+ignore:
+  - local

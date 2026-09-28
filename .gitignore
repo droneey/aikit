@@ -1,3 +1,7 @@
 .DS_Store
 /local/
 **/node_modules/
+
+# mise
+mise.local.toml
+/.devkit
