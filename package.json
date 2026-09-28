@@ -14,22 +14,23 @@
   },
   "type": "module",
   "scripts": {
-    "prepare": "lefthook install",
     "lint:check": "biome check",
     "lint:fix": "biome check --write",
     "packages:check": "syncpack lint && syncpack format --check",
     "packages:fix": "syncpack fix && syncpack format",
     "shell:check": "shellcheck install.sh",
     "plugin:check": "claude plugin validate .",
-    "check": "bun run lint:check && bun run packages:check && bun run shell:check && bun run plugin:check"
+    "workflows:check": "actionlint -color",
+    "secrets:check": "betterleaks git . --redact --no-banner && betterleaks git . --pre-commit --redact --no-banner && betterleaks git . --pre-commit --staged --redact --no-banner",
+    "names:check": "ls-lint --config .devkit/common/ls-lint/base.yaml --config .devkit/common/ls-lint/markdown.yaml --config .ls-lint.yaml",
+    "audit:check": "osv-scanner scan source --licenses=\"$(paste -sd, .devkit/common/osv-scanner/licenses.txt)\" .",
+    "check": "bun run lint:check && bun run packages:check && bun run shell:check && bun run plugin:check && bun run workflows:check && bun run secrets:check && bun run names:check && bun run audit:check"
   },
   "devDependencies": {
     "@anthropic-ai/claude-code": "^2.1.281",
-    "@biomejs/biome": "^2.5.12",
-    "@droneey/devkit-ts-biome": "^1.10.2",
-    "@droneey/devkit-ts-lefthook": "^1.10.2",
-    "@droneey/devkit-ts-syncpack": "^1.10.2",
-    "lefthook": "^2.1.4",
+    "@biomejs/biome": "^2.5.14",
+    "@droneey/devkit-ts-biome": "^1.30.0",
+    "@droneey/devkit-ts-syncpack": "^1.30.0",
     "syncpack": "^15.3.3"
   }
 }
